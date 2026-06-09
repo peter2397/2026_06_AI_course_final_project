@@ -1,0 +1,18 @@
+# 虛擬環境
+.venv/
+venv/
+env/
+
+# PyCharm 暫存檔
+.idea/
+__pycache__/
+*.pyc
+
+# 資料集與圖片 (避免把幾千張圖傳上去)
+dataset/
+*.png
+*.jpg
+*.jpeg
+
+# 模型權重 (如果 pth 檔案大於 100MB，GitHub 會拒絕上傳。如果小於，可以刪除這行讓它上傳)
+# *.pth
